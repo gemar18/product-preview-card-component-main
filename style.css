@@ -17,7 +17,7 @@
   --White: hsl(0, 0%, 100%);
 }
 
-/* mobile-design */
+
 
 body {
   min-height: 100vh;
@@ -122,6 +122,7 @@ button:hover{
 
 
 .attribution {
+  margin-top: 20px;
   font-size: 11px;
   text-align: center;
 }
@@ -129,3 +130,17 @@ button:hover{
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+/* mobile-design 
+
+@media screen and (max-width: 650px) {
+  .container{
+    margin-top: 10%;
+    grid-template-columns: 1fr;
+  
+    height: 100%;
+  }
+  .container-image {
+    background-image: url("./images/image-product-mobile.jpg");
+    border-radius: 15px 15px 0 0;
+  }
+}*/
